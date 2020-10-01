@@ -8,6 +8,7 @@ import weather from '../assests/images/weather.png';
 import scheduler from '../assests/images/scheduler.png';
 import InnVenture from '../assests/images/InnVenture.png';
 import landing from '../assests/images/landing.png';
+import website from '../assests/images/website.png';
 
 class Carousel extends React.Component {
     constructor(props){
@@ -24,6 +25,14 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
+                    title: 'Fully Responsive Web Design',
+                    subTitle:'Website designed for all screens.',
+                    imgSrc: website,
+                    link: 'https://powerful-caverns-36215.herokuapp.com/stats',
+                    selected: false
+                },
+                {
+                    id: 2,
                     title: 'Landing Page',
                     subTitle:'Detailed Lading Page for Website Develpoment',
                     imgSrc: landing,
@@ -31,7 +40,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 2,
+                    id: 3,
                     title: 'Weather Dashboard',
                     subTitle:'A weather application with 5-Day forecast included.',
                     imgSrc: weather,
@@ -39,7 +48,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title: 'Day Scheduler',
                     subTitle:'A great way to keep track of your daily tasks!',
                     imgSrc: scheduler,
@@ -47,7 +56,7 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 4,
+                    id: 5,
                     title: 'InnVenture',
                     subTitle:'A Group Project Game with turn based combat!',
                     imgSrc: InnVenture,

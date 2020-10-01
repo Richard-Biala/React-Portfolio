@@ -8,7 +8,7 @@ function ContactPage(props) {
             <p className="contacts">
                 Email: rkj128@gmail.com
                 <hr/>
-                Address: 1668 Powell Pl. West Sacramento, CA 95691
+                Contact Number: 408-616-0851
                 <hr/>
                 LinkedIn: <a href="https://www.linkedin.com/in/richard-biala-1245b61b5/">https://www.linkedin.com/in/richard-biala-1245b61b5/</a>
                 <hr/>
